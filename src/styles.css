@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 4vw;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.time {
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+.button {
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 80%;
+  font-size: 3vw;
+  background: blue;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 2vh 4vw;
+}
+.start {
+  background: green;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 80vmin;
+  height: 80vmin;
+}
+
+.square {
+  border: 1px solid black;
+}
+.grey {
+  background: #808080;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
